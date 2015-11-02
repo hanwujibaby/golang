@@ -3,6 +3,7 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
 func main() {
@@ -16,5 +17,6 @@ func main() {
 		fmt.Printf("value:%d\n", e)
 
 	}
+	time.Sleep(2)
 	fmt.Println(sum)
 }

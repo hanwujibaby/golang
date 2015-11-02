@@ -17,7 +17,8 @@ func main() {
 
 	f := fibbonacci()
 	for i := 0; i < 6; i++ {
-		fmt.Printf("index:%d,value:%d\n", i, f(i))
+		//fmt.Printf("index:%d,value:%d\n", i)
+		fmt.Printf("index:%d,value:%d\n", i)
 	}
 
 }
